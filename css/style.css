@@ -7,6 +7,8 @@
     font-family: 'Poppins';
 }
 
+/*   LOGIN   */
+
 input:focus {
     outline: none;
 }
@@ -77,7 +79,7 @@ form.form-login {
 }
 
 section.main {
-    background: linear-gradient(white, #d3d8e8);
+    background: linear-gradient(white, #e1e2f4);
     padding: 40px 0;
 }
 
@@ -87,7 +89,7 @@ section.main {
 }
 
 .img-pessoas img {
-    max-width: 100%;
+    max-width: 65%;
 }
 
 .abrir-conta {
@@ -147,4 +149,55 @@ section.main {
     font-size: 18px;
     margin-top: 25px;
     border-radius: 3px;
+}
+
+.w100 h2 {
+    margin-top: 10px;
+    color: #1d2129;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.nascimento {
+    float: left;
+    margin-top: 5px;
+}
+
+.input-radio {
+    margin: 8px 10px;
+    float: left;
+}
+
+.input-radio h2 {
+    display: inline-block;
+}
+
+.input-radio input[type=radio] {
+    width: auto !important;
+    display: inline-block;
+}
+
+.linguas {
+    padding-right: 18px;
+    padding: 30px 0;
+    background: #fff;
+}
+
+.linguas a {
+    font-size: 12px;
+    color: #365899;
+    text-decoration: none;
+}
+
+.linguas {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.selected-linguas {
+    color: #737373;
 }
